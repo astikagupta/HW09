@@ -12,7 +12,30 @@
 # Body
 
 def most_frequent(s):
+    list1 = []
+    list2 = []
+    d = dict()
+    s = s.lower()
+    s = s.replace(',','').replace('.','').replace('!','').replace(' ','')
     print s
+    i = 0
+    c = 0
+    for i in s:
+        c = s.count(i)
+        d[i] = c
+    print d
+    print(sorted(d))
+
+
+
+
+
+            
+         
+    
+        
+
+
 
 ###############################################################################
 def main():   # DO NOT CHANGE BELOW
